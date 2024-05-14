@@ -1,0 +1,38 @@
+# This is YAML
+my-course: "AWS certification"
+version: 1.0
+price: 299
+is_public: true
+release_date: 2024-4-25
+pre_enroll: null
+
+# 1. creating list 
+category:
+ - AWS
+ - DevOps
+ - Aws certification
+
+# 2. creating a list 
+course_dev: ['john','kavale','jess']
+dev_details:
+ - name: 'john'
+   email: 'john@support.co'
+   role: 'senior dev'
+ - name: 'kavale'
+   email: 'kavale@support.co'
+   role: 'dev'
+ - name: 'jess'
+   email: 'jess@support.co'
+   role: 'intern'
+ - {name: "Zahari",email: "zahri@hr.co", role: "hr"} # this does the same as the above lists but in an array format
+
+short_description: >
+This course is amazing
+thanks you manining ai
+for such a wonderful opportunity
+
+detailed_description: |
+You will find mlops 
+model deployment best practices 
+state of the art architeture etc
+  
