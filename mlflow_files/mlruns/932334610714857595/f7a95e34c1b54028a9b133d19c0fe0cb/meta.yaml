@@ -1,0 +1,15 @@
+artifact_uri: file:///media/danlof/dan%20files/data_science_codes/udemy_course/mlflow_files/mlruns/932334610714857595/f7a95e34c1b54028a9b133d19c0fe0cb/artifacts
+end_time: 1715656688080
+entry_point_name: ''
+experiment_id: '932334610714857595'
+lifecycle_stage: active
+run_id: f7a95e34c1b54028a9b133d19c0fe0cb
+run_name: bouncy-sheep-995
+run_uuid: f7a95e34c1b54028a9b133d19c0fe0cb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715656688073
+status: 3
+tags: []
+user_id: danlof

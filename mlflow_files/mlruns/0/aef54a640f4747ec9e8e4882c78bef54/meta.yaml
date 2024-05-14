@@ -1,0 +1,15 @@
+artifact_uri: file:///media/danlof/dan%20files/data_science_codes/udemy_course/mlflow_files/mlruns/0/aef54a640f4747ec9e8e4882c78bef54/artifacts
+end_time: 1715655600060
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aef54a640f4747ec9e8e4882c78bef54
+run_name: Example Demo
+run_uuid: aef54a640f4747ec9e8e4882c78bef54
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715655600054
+status: 3
+tags: []
+user_id: danlof

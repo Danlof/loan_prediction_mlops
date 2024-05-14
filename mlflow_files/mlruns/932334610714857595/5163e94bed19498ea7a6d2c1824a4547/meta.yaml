@@ -1,0 +1,15 @@
+artifact_uri: file:///media/danlof/dan%20files/data_science_codes/udemy_course/mlflow_files/mlruns/932334610714857595/5163e94bed19498ea7a6d2c1824a4547/artifacts
+end_time: 1715656814344
+entry_point_name: ''
+experiment_id: '932334610714857595'
+lifecycle_stage: active
+run_id: 5163e94bed19498ea7a6d2c1824a4547
+run_name: adventurous-fly-576
+run_uuid: 5163e94bed19498ea7a6d2c1824a4547
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715656814339
+status: 3
+tags: []
+user_id: danlof
