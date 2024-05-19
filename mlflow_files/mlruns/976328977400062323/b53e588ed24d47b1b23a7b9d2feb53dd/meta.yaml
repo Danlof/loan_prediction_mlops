@@ -1,0 +1,15 @@
+artifact_uri: file:///media/danlof/dan%20files/data_science_codes/udemy_course/mlflow_files/mlruns/976328977400062323/b53e588ed24d47b1b23a7b9d2feb53dd/artifacts
+end_time: 1715914682715
+entry_point_name: ''
+experiment_id: '976328977400062323'
+lifecycle_stage: active
+run_id: b53e588ed24d47b1b23a7b9d2feb53dd
+run_name: magnificent-deer-421
+run_uuid: b53e588ed24d47b1b23a7b9d2feb53dd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715914681438
+status: 3
+tags: []
+user_id: danlof

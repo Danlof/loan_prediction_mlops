@@ -1,0 +1,15 @@
+artifact_uri: file:///media/danlof/dan%20files/data_science_codes/udemy_course/mlflow_files/mlruns/976328977400062323/03555fbeadf144a3a83df5548352a813/artifacts
+end_time: 1715914681437
+entry_point_name: ''
+experiment_id: '976328977400062323'
+lifecycle_stage: active
+run_id: 03555fbeadf144a3a83df5548352a813
+run_name: resilient-cow-161
+run_uuid: 03555fbeadf144a3a83df5548352a813
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715914680274
+status: 3
+tags: []
+user_id: danlof

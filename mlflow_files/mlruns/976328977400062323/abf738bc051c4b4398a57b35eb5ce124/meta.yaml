@@ -1,0 +1,15 @@
+artifact_uri: file:///media/danlof/dan%20files/data_science_codes/udemy_course/mlflow_files/mlruns/976328977400062323/abf738bc051c4b4398a57b35eb5ce124/artifacts
+end_time: 1716034806454
+entry_point_name: ''
+experiment_id: '976328977400062323'
+lifecycle_stage: active
+run_id: abf738bc051c4b4398a57b35eb5ce124
+run_name: rogue-koi-755
+run_uuid: abf738bc051c4b4398a57b35eb5ce124
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716034490548
+status: 3
+tags: []
+user_id: danlof

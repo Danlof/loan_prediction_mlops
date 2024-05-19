@@ -1,0 +1,15 @@
+artifact_uri: file:///media/danlof/dan%20files/data_science_codes/udemy_course/mlflow_files/mlruns/976328977400062323/aeaeae9c508642658a70a3133e44d628/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '976328977400062323'
+lifecycle_stage: active
+run_id: aeaeae9c508642658a70a3133e44d628
+run_name: calm-mouse-325
+run_uuid: aeaeae9c508642658a70a3133e44d628
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716033725415
+status: 1
+tags: []
+user_id: danlof

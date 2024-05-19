@@ -1,0 +1,15 @@
+artifact_uri: file:///media/danlof/dan%20files/data_science_codes/udemy_course/mlflow_files/mlruns/976328977400062323/b1d37b5753d54b0e936e9fa3bd4a648f/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '976328977400062323'
+lifecycle_stage: active
+run_id: b1d37b5753d54b0e936e9fa3bd4a648f
+run_name: rumbling-foal-55
+run_uuid: b1d37b5753d54b0e936e9fa3bd4a648f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716024952270
+status: 1
+tags: []
+user_id: danlof

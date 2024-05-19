@@ -1,0 +1,15 @@
+artifact_uri: file:///media/danlof/dan%20files/data_science_codes/udemy_course/mlflow_files/mlruns/976328977400062323/144decb8f609483dace3a5e04ac58d04/artifacts
+end_time: 1716034804111
+entry_point_name: ''
+experiment_id: '976328977400062323'
+lifecycle_stage: active
+run_id: 144decb8f609483dace3a5e04ac58d04
+run_name: brawny-goose-591
+run_uuid: 144decb8f609483dace3a5e04ac58d04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716034802888
+status: 3
+tags: []
+user_id: danlof

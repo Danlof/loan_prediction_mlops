@@ -1,0 +1,20 @@
+name: Loan_prediction
+
+python_env: python_env.yaml
+# or
+# conda_env: my_env.yaml
+# or
+# docker_env:
+#    image:  mlflow-docker-example
+
+entry_points:
+  main:
+    #parameters:
+      #data_file: path
+      #regularization: {type: float, default: 0.1}
+    #command: "python train.py -r {regularization} {data_file}"
+  #validate:
+    #parameters:
+      #data_file: path
+    #command: "python validate.py {data_file}"
+    command: "python3 loan_prediction.py"

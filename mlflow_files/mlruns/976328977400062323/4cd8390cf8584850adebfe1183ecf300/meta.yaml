@@ -1,0 +1,15 @@
+artifact_uri: file:///media/danlof/dan%20files/data_science_codes/udemy_course/mlflow_files/mlruns/976328977400062323/4cd8390cf8584850adebfe1183ecf300/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '976328977400062323'
+lifecycle_stage: active
+run_id: 4cd8390cf8584850adebfe1183ecf300
+run_name: brawny-loon-280
+run_uuid: 4cd8390cf8584850adebfe1183ecf300
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716033832583
+status: 1
+tags: []
+user_id: danlof

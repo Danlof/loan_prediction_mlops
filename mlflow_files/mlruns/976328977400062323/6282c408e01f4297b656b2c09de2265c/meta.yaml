@@ -1,0 +1,15 @@
+artifact_uri: file:///media/danlof/dan%20files/data_science_codes/udemy_course/mlflow_files/mlruns/976328977400062323/6282c408e01f4297b656b2c09de2265c/artifacts
+end_time: 1716034805417
+entry_point_name: ''
+experiment_id: '976328977400062323'
+lifecycle_stage: active
+run_id: 6282c408e01f4297b656b2c09de2265c
+run_name: capricious-crane-875
+run_uuid: 6282c408e01f4297b656b2c09de2265c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716034804113
+status: 3
+tags: []
+user_id: danlof

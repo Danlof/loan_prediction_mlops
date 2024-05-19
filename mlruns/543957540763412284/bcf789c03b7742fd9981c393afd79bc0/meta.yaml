@@ -1,0 +1,15 @@
+artifact_uri: file:///media/danlof/dan%20files/data_science_codes/udemy_course/mlruns/543957540763412284/bcf789c03b7742fd9981c393afd79bc0/artifacts
+end_time: 1715914574445
+entry_point_name: ''
+experiment_id: '543957540763412284'
+lifecycle_stage: active
+run_id: bcf789c03b7742fd9981c393afd79bc0
+run_name: mysterious-ray-800
+run_uuid: bcf789c03b7742fd9981c393afd79bc0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715914570180
+status: 3
+tags: []
+user_id: danlof

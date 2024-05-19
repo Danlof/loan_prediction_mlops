@@ -1,0 +1,15 @@
+artifact_uri: file:///media/danlof/dan%20files/data_science_codes/udemy_course/mlflow_files/mlruns/976328977400062323/5835029813804f72bf96aacce3e4c439/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '976328977400062323'
+lifecycle_stage: active
+run_id: 5835029813804f72bf96aacce3e4c439
+run_name: upset-rook-329
+run_uuid: 5835029813804f72bf96aacce3e4c439
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716024808971
+status: 1
+tags: []
+user_id: danlof

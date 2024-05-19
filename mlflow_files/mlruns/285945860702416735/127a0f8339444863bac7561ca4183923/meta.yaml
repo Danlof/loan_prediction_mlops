@@ -1,0 +1,15 @@
+artifact_uri: file:///media/danlof/dan%20files/data_science_codes/udemy_course/mlflow_files/mlruns/285945860702416735/127a0f8339444863bac7561ca4183923/artifacts
+end_time: 1715742422183
+entry_point_name: ''
+experiment_id: '285945860702416735'
+lifecycle_stage: active
+run_id: 127a0f8339444863bac7561ca4183923
+run_name: grandiose-rook-381
+run_uuid: 127a0f8339444863bac7561ca4183923
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715742420219
+status: 3
+tags: []
+user_id: danlof

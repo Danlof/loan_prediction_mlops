@@ -1,0 +1,15 @@
+artifact_uri: file:///media/danlof/dan%20files/data_science_codes/udemy_course/mlflow_files/mlruns/976328977400062323/24ed96d813604441b2c74382fd76b9fd/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '976328977400062323'
+lifecycle_stage: active
+run_id: 24ed96d813604441b2c74382fd76b9fd
+run_name: chill-bug-28
+run_uuid: 24ed96d813604441b2c74382fd76b9fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716024698008
+status: 1
+tags: []
+user_id: danlof

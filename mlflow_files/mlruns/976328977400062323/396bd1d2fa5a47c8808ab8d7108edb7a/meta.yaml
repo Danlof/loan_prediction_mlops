@@ -1,0 +1,15 @@
+artifact_uri: file:///media/danlof/dan%20files/data_science_codes/udemy_course/mlflow_files/mlruns/976328977400062323/396bd1d2fa5a47c8808ab8d7108edb7a/artifacts
+end_time: 1716022842055
+entry_point_name: ''
+experiment_id: '976328977400062323'
+lifecycle_stage: active
+run_id: 396bd1d2fa5a47c8808ab8d7108edb7a
+run_name: adaptable-fawn-260
+run_uuid: 396bd1d2fa5a47c8808ab8d7108edb7a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716022838246
+status: 3
+tags: []
+user_id: danlof

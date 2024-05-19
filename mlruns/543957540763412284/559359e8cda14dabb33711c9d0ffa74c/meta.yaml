@@ -1,0 +1,15 @@
+artifact_uri: file:///media/danlof/dan%20files/data_science_codes/udemy_course/mlruns/543957540763412284/559359e8cda14dabb33711c9d0ffa74c/artifacts
+end_time: 1715914575821
+entry_point_name: ''
+experiment_id: '543957540763412284'
+lifecycle_stage: active
+run_id: 559359e8cda14dabb33711c9d0ffa74c
+run_name: casual-stoat-907
+run_uuid: 559359e8cda14dabb33711c9d0ffa74c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715914574446
+status: 3
+tags: []
+user_id: danlof

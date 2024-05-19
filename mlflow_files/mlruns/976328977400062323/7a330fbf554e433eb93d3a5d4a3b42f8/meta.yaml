@@ -1,0 +1,15 @@
+artifact_uri: file:///media/danlof/dan%20files/data_science_codes/udemy_course/mlflow_files/mlruns/976328977400062323/7a330fbf554e433eb93d3a5d4a3b42f8/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '976328977400062323'
+lifecycle_stage: active
+run_id: 7a330fbf554e433eb93d3a5d4a3b42f8
+run_name: carefree-steed-459
+run_uuid: 7a330fbf554e433eb93d3a5d4a3b42f8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715912625377
+status: 1
+tags: []
+user_id: danlof

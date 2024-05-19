@@ -1,0 +1,15 @@
+artifact_uri: file:///media/danlof/dan%20files/data_science_codes/udemy_course/mlflow_files/mlruns/285945860702416735/8fccbca5dee34b22baf558af6cd1ce22/artifacts
+end_time: 1715742719102
+entry_point_name: ''
+experiment_id: '285945860702416735'
+lifecycle_stage: active
+run_id: 8fccbca5dee34b22baf558af6cd1ce22
+run_name: respected-finch-223
+run_uuid: 8fccbca5dee34b22baf558af6cd1ce22
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715742717270
+status: 3
+tags: []
+user_id: danlof

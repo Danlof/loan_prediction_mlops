@@ -38,3 +38,86 @@
 ### If port is arealdy in use 
 - Get a list of the services & PID running using - `sudo lsof -i tcp:5000`
 - Kill them using `kill -15 <PID> `
+
+
+# Mlflow Projects 
+- Create a run using mlflow project file `mlflow run . --experiment-name <name_of_experiment>`. Run from the folder where MLProject file is present 
+
+- Run from git repository `mlflow run https://github.com/<reponame> --experiment-name <name_of_experiment>`
+
+
+# mlflow models
+- serve model with local host server `mlflow models serve -m ///media/danlof/dan%20files/data_science_codes/udemy_course/mlflow_files/mlruns/976328977400062323/6282c408e01f4297b656b2c09de2265c/artifacts/RandomForestClassifier --port 9000`
+
+- sign up for postman and post this :`http://127.0.0.1:9000/invocations`
+
+- the run this as a json file on the raw column:
+
+`
+{
+    "dataframe_split": {
+        "columns": [
+            "Gender",
+            "Married",
+            "Dependents",
+            "Education",
+            "Self_Employed",
+            "LoanAmount",
+            "Loan_Amount_Term",
+            "Credit_History",
+            "Property_Area",
+            "TotalIncome"
+        ],
+        "data": [
+            [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                4.98745,
+                360.0,
+                1.0,
+                2.0,
+                8.698
+            ]
+        ]
+    }
+}
+`
+
+- you can also run the following on your local terminal :
+`
+curl --location 'http://127.0.0.1:9000/invocations' \
+--header 'Content-Type: application/json' \
+--data '{
+    "dataframe_split": {
+        "columns": [
+            "Gender",
+            "Married",
+            "Dependents",
+            "Education",
+            "Self_Employed",
+            "LoanAmount",
+            "Loan_Amount_Term",
+            "Credit_History",
+            "Property_Area",
+            "TotalIncome"
+        ],
+        "data": [
+            [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                4.98745,
+                360.0,
+                1.0,
+                2.0,
+                8.698
+            ]
+        ]
+    }
+}'
+`

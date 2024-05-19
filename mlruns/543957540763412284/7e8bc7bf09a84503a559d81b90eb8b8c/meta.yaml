@@ -1,0 +1,15 @@
+artifact_uri: file:///media/danlof/dan%20files/data_science_codes/udemy_course/mlruns/543957540763412284/7e8bc7bf09a84503a559d81b90eb8b8c/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '543957540763412284'
+lifecycle_stage: active
+run_id: 7e8bc7bf09a84503a559d81b90eb8b8c
+run_name: ambitious-fish-113
+run_uuid: 7e8bc7bf09a84503a559d81b90eb8b8c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715913740263
+status: 1
+tags: []
+user_id: danlof
