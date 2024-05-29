@@ -1,0 +1,15 @@
+artifact_uri: file:///media/danlof/dan%20files/data_science_codes/udemy_course/mlflow_files/mlruns/976328977400062323/e4e3fde1bc064215be5b49ce9bd5b9de/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '976328977400062323'
+lifecycle_stage: active
+run_id: e4e3fde1bc064215be5b49ce9bd5b9de
+run_name: brawny-roo-427
+run_uuid: e4e3fde1bc064215be5b49ce9bd5b9de
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716431466628
+status: 1
+tags: []
+user_id: danlof

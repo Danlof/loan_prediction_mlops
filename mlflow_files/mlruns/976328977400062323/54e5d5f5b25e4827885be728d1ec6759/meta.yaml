@@ -1,0 +1,15 @@
+artifact_uri: file:///media/danlof/dan%20files/data_science_codes/udemy_course/mlflow_files/mlruns/976328977400062323/54e5d5f5b25e4827885be728d1ec6759/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '976328977400062323'
+lifecycle_stage: active
+run_id: 54e5d5f5b25e4827885be728d1ec6759
+run_name: unequaled-wren-192
+run_uuid: 54e5d5f5b25e4827885be728d1ec6759
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716430956134
+status: 1
+tags: []
+user_id: danlof

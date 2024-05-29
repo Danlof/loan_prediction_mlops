@@ -1,0 +1,15 @@
+artifact_uri: file:///media/danlof/dan%20files/data_science_codes/udemy_course/mlflow_files/mlruns/976328977400062323/3d5f9dcae07e41a794ada90f6c45ddb0/artifacts
+end_time: 1716347842264
+entry_point_name: ''
+experiment_id: '976328977400062323'
+lifecycle_stage: active
+run_id: 3d5f9dcae07e41a794ada90f6c45ddb0
+run_name: debonair-skunk-239
+run_uuid: 3d5f9dcae07e41a794ada90f6c45ddb0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716347841001
+status: 3
+tags: []
+user_id: danlof

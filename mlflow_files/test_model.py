@@ -38,7 +38,6 @@ data_df = pd.DataFrame([data],columns=columns)
 # make predictions 
 predictions = loaded_model.predict(data_df)
 print(predictions)
-
 if  predictions[0] == 1:
     print(" Loan was succesfully approved")
 else:

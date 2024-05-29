@@ -47,6 +47,7 @@
 
 
 # mlflow models
+## deploying models as a REST API
 - serve model with local host server `mlflow models serve -m ///media/danlof/dan%20files/data_science_codes/udemy_course/mlflow_files/mlruns/976328977400062323/6282c408e01f4297b656b2c09de2265c/artifacts/RandomForestClassifier --port 9000`
 
 - sign up for postman and post this :`http://127.0.0.1:9000/invocations`
@@ -121,3 +122,18 @@ curl --location 'http://127.0.0.1:9000/invocations' \
     }
 }'
 `
+## for the mysql database
+- for linux user you have to install the Python 3 and MySQL development headers and libraries: 
+`$ sudo apt-get install python3-dev default-libmysqlclient-dev build-essential pkg-config` # Debian / Ubuntu
+`% sudo yum install python3-devel mysql-devel pkgconfig `# Red Hat / CentOS
+
+- install mysql client `pip install mysqlclient` which allows python programmes to communicate with MYSQL database.
+
+- (on a different terminal)Then you need to connect to mysql workbench via the terminal as : `mysql-workbench-community`
+- then you need to connect to the port 5000 0r 5001 to use the database :
+`mlflow server --host 0.0.0.0 --port 5000 --backend-store-uri mysql://local:user1@localhost/mlflow_db --default-artifact-root "/media/danlof/dan files/data_science_codes/udemy_course/mlflow_files/mlruns"`
+
+`mlflow server --host 0.0.0.0 --port 5001 --backend-store-uri mysql://user1:password@localhost/mlflow_db --default-artifact-root "/media/danlof/dan files/data_science_codes/udemy_course/mlflow_files/mlruns"`
+
+- Make sure that when running the tracking uri , that the `loan_prediction.py` is has the same port as the mlfow tracking uri: `export MLFLOW_TRACKING_URI=http://0.0.0.0:5001`
+- Then you can run the mlflow : `mlflow run . --experiment-name loan_prediction`

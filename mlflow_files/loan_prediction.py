@@ -11,8 +11,9 @@ from sklearn import metrics
 import mlflow
 import os
 
-# mlflow.set_tracking_uri("http://192.168.0.1:5000")
-#mlflow.set_tracking_uri("http://0.0.0.0:5001/")
+#mlflow.set_tracking_uri("http://192.168.0.1:5000")
+mlflow.set_tracking_uri("http://0.0.0.0:5001/")
+#mlflow.set_tracking_uri("http://0.0.0.0:5000/")
 
 # load the dataset
 dataset = pd.read_csv("/media/danlof/dan files/data_science_codes/udemy_course/mlflow_files/train.csv")
@@ -142,12 +143,13 @@ def eval_metrics(actual, pred):
     # Close plot
     plt.close()
     return(accuracy, f1, auc)
+print("reached point 5")
 
 
 def mlflow_logging(model, X, y, name):
     
      with mlflow.start_run() as run:
-        #mlflow.set_tracking_uri("http://0.0.0.0:5001/")
+        mlflow.set_tracking_uri("http://0.0.0.0:5001/")
         run_id = run.info.run_id
         mlflow.set_tag("run_id", run_id)      
         pred = model.predict(X)
@@ -168,7 +170,7 @@ def mlflow_logging(model, X, y, name):
         
         mlflow.end_run()
         
-print("Reached point 7")
+print("Successfully logged the models")
 
 mlflow_logging(model_tree, X_test, y_test, "DecisionTreeClassifier")
 mlflow_logging(model_log, X_test, y_test, "LogisticRegression")
