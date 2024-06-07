@@ -1,0 +1,15 @@
+artifact_uri: file:///media/danlof/dan%20files/data_science_codes/udemy_course/Docker_For_Ml/docker-mlflow/mlruns/0/b4299b86cec94676a36c9e8142e2263a/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b4299b86cec94676a36c9e8142e2263a
+run_name: stylish-mink-366
+run_uuid: b4299b86cec94676a36c9e8142e2263a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717758657078
+status: 1
+tags: []
+user_id: danlof
