@@ -49,4 +49,5 @@ This can be found on `loan_fastapi_app.py`
   "Credit_History": 0,
   "Property_Area": 0,
   "TotalIncome": 0
-}``
+}`
+`
