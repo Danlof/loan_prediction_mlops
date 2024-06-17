@@ -6,7 +6,7 @@ import wget
 
 # load model
 model_name ='RF_Loan_model.joblib'
-file_url="https://github.com/Danlof/loan_prediction_mlops/blob/db04652af5d4b5058be3351c7b99444e6102ae18/deploy_on_streamlit/RF_Loan_model.joblib"
+file_url="https://github.com/Danlof/loan_prediction_mlops/blob/main/deploy_on_streamlit/RF_Loan_model.joblib"
 wget.download(file_url)
 model = joblib.load(model_name)
 
