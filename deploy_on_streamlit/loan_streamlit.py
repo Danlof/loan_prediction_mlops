@@ -54,15 +54,13 @@ def prediction(Gender,Married,Dependents,
 
         else:
             pred = "Approved"
-        return pred
+        return pred        
+
 
 def main():
-    """front end """
-    st.title("Welcome to loan Application")
-
-    st.header("Please enter your loan application details:")
-    
-    # application details needed
+    # Front end
+    st.title("Welcome to Loan Application")
+    st.header("Please enter your details to proceed with your loan Application")
     Gender = st.selectbox("Gender",("Male","Female"))
     Married = st.selectbox("Married",("Yes","No"))
     Dependents = st.number_input("Number of Dependents")
@@ -70,23 +68,20 @@ def main():
     Self_Employed = st.selectbox("Self Employed",("Yes","No"))
     ApplicantIncome = st.number_input("Applicant Income")
     CoapplicantIncome = st.number_input("Coapplicant Income")
-    LoanAmount = st.number_input("Loan Amount")
+    LoanAmount = st.number_input("LoanAmount")
     Loan_Amount_Term = st.number_input("Loan Amount Term")
-    Credit_History = st.selectbox("Credit History",("Outstanding Loan","No Outstanding Loan"))
-    Property_Area = st.selectbox("Property Area",("Rural","Semi Urban","Urban"))
+    Credit_History = st.selectbox("Credit History",("Outstanding Loan", "No Outstanding Loan"))
+    Property_Area = st.selectbox("Property Area",("Rural","Urban","Semi Urban"))
 
-    if st.button("Apply"):
+    if st.button("Predict"):
         result = prediction(Gender,Married,Dependents,
          Education,Self_Employed,ApplicantIncome,CoapplicantIncome,
          LoanAmount,Loan_Amount_Term,Credit_History,Property_Area)
         
         if result == "Approved":
-            st.success("Your loan application has been approved")
+            st.success("Your loan Application is Approved")
         else:
-            st.error("Your loan application has been rejected")
-        
+            st.error("Your loan Application is Rejected")
 
-    
-if __name__=="__main__":
+if __name__ == "__main__":
     main()
-

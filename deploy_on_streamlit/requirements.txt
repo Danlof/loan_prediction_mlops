@@ -3,3 +3,4 @@ pandas==2.1.1
 scikit-learn
 joblib
 streamlit
+wget
