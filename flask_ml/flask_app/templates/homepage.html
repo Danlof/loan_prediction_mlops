@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <title>
+            Welcome to Loan application
+        </title>
+    </head>
+    <body>
+        <h2 align="center">Welcome to Loan application</h2>
+    </body>
+</br>
+<form action="/predict" method="POST">
+    <table align="center" cellpadding = "10">
+        <!----- First Name ---------------------------------------------------------->
+        <tr>
+            <td>FIRST NAME</td>
+            <td>
+                <input type="text" name="First_Name" maxlength="30" placeholder="characters a-z A-Z"/>
+            </td>
+        </tr>
+        <!----- Last Name ---------------------------------------------------------->
+        <tr>
+            <td>LAST NAME</td>
+            <td>
+                <input type="text" name="Last_Name" maxlength="30" placeholder="characters a-z A-Z"/>
+            </td>
+        </tr>
+        <!------Gender-------------------------------------------------------------->
+        <tr>
+            <td>GENDER</td>
+            <td>
+                <input type="radio" name="Gender" id="Gender" value="1">Male</input>
+                <input type="radio" name="Gender" id="Gender" value="0">Female</input>            </td>
+        </tr>
+        <!--Marital Status----------------------------------------------------------->
+        <tr>
+            <td>MARRIED</td>
+            <td>
+                <input type="radio" name="Married" id="Married" value="1">Yes</input>
+                <input type="radio" name="Married" id="Married" value="0">No</input>
+            </td>
+        </tr>
+        <tr>
+            <td>DEPENDENTS</td>
+            <td>
+                <input type="text" name="Dependents" id="Dependents" maxlength="2" placeholder="No. of Dependents"> 
+            </td>
+        </tr>
+        <!-----Employment---------------------------------------------------->
+		<tr>
+			<td>EMPLOYMENT</td>
+			<td>
+				<input type="radio" name="Self_Employed" id="Self_Employed" value="1"> Self Employment </input>
+				<input type="radio" name="Self_Employed" id="Self_Employed" value="0"> Employed </input>
+			</td>
+		</tr>
+        <!--Education----------------------------------------------------------->
+        <tr>
+            <td>EDUCATION</td>
+            <td>
+                <input type="radio" name="Education" id="Education" value="1"> Graduate </input>
+                <input type="radio" name="Education" id="Education" value="0"> Not Graduate </input>
+            </td>
+        </tr>
+        <!----- Income ---------------------------------------------------------->
+        <tr>
+            <td>APPLICANT INCOME</td>
+            <td>
+                <input type="text" name="Applicant_income" maxlength="30" placeholder="$(thousands)"/>
+            </td>
+        </tr>
+        <tr>
+            <td>CO APPLICANT INCOME</td>
+            <td>
+                <input type="text" name="co_applicant_income" maxlength="30" placeholder="$(thousands)" />
+            </td>
+        </tr>
+        <tr>
+            <td>LOAN AMOUNT</td>
+            <td>
+                <input type="text" name="LoanAmount" maxlength="30" placeholder="$(thousands)" />
+            </td>
+        </tr>
+        <!----- Loan Term ---------------------------------------------------------->
+        <tr>
+            <td>LOAN TERM</td>
+            <td>
+                <input type="number" name="Loan_Amount_Term" step="0.01" maxlength="32" placeholder="term in years" />
+            </td>
+        </tr>
+        <!----- Credit History ---------------------------------------------------------->
+		<tr>
+			<td>CREDIT HISTORY</td>
+			<td>
+				<input type="radio" name="Credit_History" id="Credit_History" value="1"> Yes </input>
+				<input type="radio" name="Credit_History" id="Credit_History" value="0"> No </input>
+			</td>
+		</tr>
+        <!--Region------------------------------------------------------------------>
+        <tr>
+            <td>PROPERTY AREA</td>
+            <td>
+                <input type="radio" name="Property_Area" id="Property_Area" value="0">Rural</input>
+                <input type="radio" name="Property_Area" id="Property_Area" value="1">Semi Urban</input>
+                <input type="radio" name="Property_Area" id="Property_Area" value="2">Urban</input>
+            </td>
+        </tr>
+        <!--Submit and reset--------------------------------------------------------->
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Submit">
+                &nbsp;&nbsp;
+                <input type="reset" value="Reset" onclick="location.href='/';">
+            </td>
+        </tr>
+    </table>
+</form>
+<h3 align="center">{{ prediction }}</h3>
+</html>
