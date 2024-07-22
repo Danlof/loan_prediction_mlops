@@ -24,6 +24,60 @@ app.add_middleware(
     allow_headers=['*'],
 )
 
+class LoanPrediction(BaseModel):
+    Gender: str
+    Married: str
+    Dependents: str
+    Education: str
+    Self_Employed: str
+    ApplicantIncome: float
+    CoapplicantIncome: float
+    LoanAmount: float
+    Loan_Amount_Term: float
+    Credit_History: float
+    Property_Area: str
+
 @app.get("/")
 async def index():
-    return {'message':'Welcome to loan application App using API CI CD jenkins'}
+    return {'message':'Welcome to loan Application App using API- CI CD jenkins'}
+
+@app.post("/prediction_api")
+async def predict(loan_details: LoanPrediction):
+    data = loan_details.model_dump()
+    prediction = generate_predictions([data])['prediction'][0]
+    if prediction == 'Y':
+        pred = 'Approved'
+    else:
+        pred = "Rejected"
+    return {'status':pred}
+
+@app.post("/prediction_ui")
+async def predict_gui(Gender: str,
+    Married: str,
+    Dependents: str,
+    Education: str,
+    Self_Employed: str,
+    ApplicantIncome: float,
+    CoapplicantIncome: float,
+    LoanAmount: float,
+    Loan_Amount_Term: float,
+    Credit_History: float,
+    Property_Area: str
+    ):
+    input_data = [Gender, Married,Dependents, Education, Self_Employed,ApplicantIncome,
+     CoapplicantIncome,LoanAmount, Loan_Amount_Term,Credit_History, Property_Area  ]
+    
+    cols = ['Gender', 'Married', 'Dependents', 'Education',
+       'Self_Employed', 'ApplicantIncome', 'CoapplicantIncome', 'LoanAmount',
+       'Loan_Amount_Term', 'Credit_History', 'Property_Area']
+    
+    data_dict = dict(zip(cols,input_data))
+    prediction = generate_predictions([data_dict])["prediction"][0]
+    if prediction == "Y":
+        pred = "Approved"
+    else:
+        pred = "Rejected"
+    return {"status":pred}
+
+if __name__=='__main__':
+    uvicorn.run(app,host="0.0.0.0",port=8005)
