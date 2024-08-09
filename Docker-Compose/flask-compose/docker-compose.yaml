@@ -1,0 +1,14 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8000:5000"
+    volumes:
+      - ".:/code"
+    environment:
+      FLASK_APP: app.py
+      FLASK_ENV: development # 'development'
+      FLASK_DEBUG: 'true' # during deployment it should be false
+    command: gunicorn --workers 3 --bind 0.0.0.0:5000 app:app
+  redis:
+    image: "redis:alpine"
